@@ -1,0 +1,15 @@
+1. O(1) - Constant time complexity: The algorithm's runtime remains constant, regardless of the size of the input data.
+
+2. O(log n) - Logarithmic time complexity: The algorithm's runtime grows logarithmically with the size of the input data. Examples of algorithms with logarithmic time complexity are binary search and certain types of tree-based algorithms.
+
+3. O(n) - Linear time complexity: The algorithm's runtime grows linearly with the size of the input data. Examples of algorithms with linear time complexity are linear search and simple iterative loops.
+
+4. O(n log n) - Linearithmic time complexity: The algorithm's runtime grows linearly multiplied by the logarithm of the size of the input data. Examples of algorithms with linearithmic time complexity are many efficient sorting algorithms like merge sort and quicksort.
+
+5. O(n^2) - Quadratic time complexity: The algorithm's runtime grows quadratically with the size of the input data. Examples of algorithms with quadratic time complexity are nested loops or algorithms that involve comparing every element with every other element in a collection.
+
+6. O(n^c) - Polynomial time complexity: The algorithm's runtime grows as a polynomial function of the size of the input data, where c is a constant greater than 1. Examples of algorithms with polynomial time complexity are matrix multiplication algorithms.
+
+7. O(2^n) - Exponential time complexity: The algorithm's runtime grows exponentially with the size of the input data. Examples of algorithms with exponential time complexity are recursive algorithms that result in an exponential number of recursive calls.
+
+8. O(n!) - Factorial time complexity: The algorithm's runtime grows factorial with the size of the input data. Examples of algorithms with factorial time complexity are algorithms that involve generating all possible permutations or combinations of a set of elements.

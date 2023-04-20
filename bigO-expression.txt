@@ -1,0 +1,16 @@
+Always look towards the big picture and simplify it
+
+O(2n) is O(n) -> constant
+
+O(500) is O(1) -> linear
+
+O(13n^2) is O(n^2) -> quadratic
+
+
+O(n + 10) is O(n) -> linear
+
+O(100n + 50) is O(n) -> linear
+
+O(n^2 + 5n + 8) is O(n^2) -> quadratic
+
+O(15n^2 + 1000n + 200) is O(n^2) -> quadratic

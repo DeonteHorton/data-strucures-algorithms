@@ -1,0 +1,13 @@
+Big O Definition
+
+We say that an algorithm is O(f(n)) if the number of simple operations the computer has to do isd eventually less than a constant times f(n), as n increases
+
+"f" is the function and n is the input number
+
+f(n) operations
+
+f(n) could be linear. (f(n) = n) -> as "n" scales, the runtime scales as well
+
+f(n) could be quadratic. (f(n) = n^2) -> as "n" scales, the runtime could scales as well but it is squared.
+f(n) could be constant. (f(n) = 1) -> as "n" scales, the runtime stays constant due to 1 operation. "1"  is the operation performed
+f(n) could be be something entirely different

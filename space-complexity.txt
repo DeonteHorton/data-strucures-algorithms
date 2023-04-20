@@ -1,0 +1,20 @@
+with time complexity, it refers to the runtime as the size of the input increases
+with space complexity, it refers to the space/memory required by the algorithm, not including space/memory taken up by the inputs
+
+booleans, numbers, undefined, null are constant space since the input would always be single
+
+strings requires O(n) space ( where n is the length of the string )
+reference types are generally O(n) space, where n is the length for arrays and the number of keys for objects
+
+function sum(arr) {
+    let total = 0;
+    for (let i = 0; i < arr.length; i++) {
+        total += arr[i];
+    }
+
+    return total;
+}
+
+in the function above, we are only focused on the space of the function, not the time.
+we only have two variables, those two variables are the only variable that takes up space. those variables are total and i.
+since total and i have already been set, theres nothing else that would take up space, not adding new variables based on the length, only adding to those two variables and not making new ones. event if the size of the arr grows, those two variables are constant. so this makes the function O(1) space

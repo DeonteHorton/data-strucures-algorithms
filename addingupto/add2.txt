@@ -1,0 +1,15 @@
+// n in the number parameter
+let addUpToSecond = (n = 100) => {
+
+    // here we have a total number of 3 operations that's being performed
+    // we take n and add it to one. so that is one operation
+    // then we take the total from the parenthesis and multiply it by n, so that is two operations
+    // finally we take the total from the parenthesis being multiply by n and divide it by 2. so that is three operations
+    return n * (n + 1) / 2;
+}
+
+this code above returns the total sum of a number
+
+so this turns out to be 3n since there are three operation that are being done against n.
+
+in big O this would be O(1) since there is always three operations being done and they are not proportionate to n . it is constant and the operations are not bounded by a multiple of "n"

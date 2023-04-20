@@ -1,0 +1,12 @@
+A logarithm is a mathematical function that represents the inverse operation of exponentiation.
+
+log^2 (8) = 3 which is essentially the inverse of 2^3 = 8 ( 2 * 2 * 2 = 8 )
+
+log^2 (value) = exponent is essentially the inverse of 2^exponent = value
+
+log === log^2
+
+
+The logarithm of a number roughly measures the number of times you can divide that number by 2 before you get a value that's less than or equal to one
+
+log (8) = 3 which is essentially ( 8 / 2 = 4, 4 / 2 = 2, 2 / 2 = 1) it took us 3 times to either get to the value of one or would get less than one

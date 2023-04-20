@@ -1,0 +1,22 @@
+// n in the number parameter
+let testFunc = (n = 100) => {
+
+    // int is an integer, just a static integer assignment so it's only one operation
+    let int = 0;
+
+    // here are a total of 5 operations in the loop, lets ignore i because it's an static integer assignment so it's only one operation
+    // since i is being compared to n, that is one operation in the loop
+    // if i is not greater than n, i goes up by one so there's a additional operation and assignment operation happening. so that's three operations
+    // upon execution, int has two operations that happens, it has an additional operation and an assignment operation happening. so that's five operations
+    for (let i = 1; i <= n; i++) {
+        int += i;
+    }
+
+    return int;
+}
+
+this code above returns the total sum of a number
+
+so this turns out to be 5n+2 since there are five operations being done against n and two operations not being done against n
+
+in big O this would be O(n) since the number of operations are bounded by a multiple of n ( 10n, 50n, 100n ) would all be considered O(n)
